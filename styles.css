@@ -1,0 +1,133 @@
+/* Body - High-end color scheme */
+body {
+    font-family: 'Roboto', sans-serif; /* Clean, professional font */
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1e; /* Dark, elegant background */
+    color: #f0f0f0; /* Light text for contrast */
+}
+
+/* Header */
+header {
+    background-color: #1c1c1e;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #d4af37; /* Subtle gold for a luxurious feel */
+    font-size: 1.1em;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0; /* Subtle hover effect */
+}
+
+/* Hero section with your picture */
+#hero {
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('SJ.jpg') center center/cover no-repeat;
+    filter: brightness(0.85);
+    position: relative;
+}
+
+#hero h1 {
+    font-size: 4em;
+    font-family: 'Playfair Display', serif; /* Luxurious font */
+    letter-spacing: 2px;
+}
+
+#hero p {
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    background-color: #2a2a2c; /* Elegant dark gray */
+    margin: 30px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    color: #f0f0f0;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p, ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Project sections with images */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #d4af37; /* Gold for project descriptions */
+    text-align: center;
+}
+
+/* Contact section */
+#contact {
+    padding: 40px;
+    background-color: #1c1c1e;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #d4af37;
+}
+
+footer {
+    background-color: #1c1c1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    border-top: 1px solid #444;
+}
